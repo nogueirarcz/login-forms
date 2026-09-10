@@ -14,12 +14,14 @@
       <div class="login__form-wrapper">
         <h1 class="login__title">Bem-vindo de volta <span>👋</span></h1>
 
-        <form action="" method="post" class="login__form" novalidate>
+        <p class="login__error" id="login-error" hidden>Usuário ou senha inválidos.</p>
+
+        <form action="/login" method="post" class="login__form" novalidate>
           <div class="login__group">
             <div class="login__box">
-              <i class="ri-mail-fill login__icon"></i>
-              <input type="email" name="email" autocomplete="email" required placeholder=" " class="login__input" id="email">
-              <label for="email" class="login__label">E-mail</label>
+              <i class="ri-user-fill login__icon"></i>
+              <input type="text" name="username" autocomplete="username" required placeholder=" " class="login__input" id="username">
+              <label for="username" class="login__label">Usuário</label>
             </div>
 
             <div class="login__box">

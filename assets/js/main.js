@@ -1,3 +1,9 @@
+const params = new URLSearchParams(window.location.search);
+if (params.get("error") === "1") {
+  const errorEl = document.getElementById("login-error");
+  if (errorEl) errorEl.hidden = false;
+}
+
 const tl = gsap.timeline({});
 
 tl.fromTo(

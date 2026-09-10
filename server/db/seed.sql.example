@@ -1,0 +1,5 @@
+USE login_forms_db;
+
+INSERT INTO users (username, password) VALUES
+  ('usuario_exemplo', 'senha_exemplo'),
+  ('outro_usuario', 'outra_senha');
