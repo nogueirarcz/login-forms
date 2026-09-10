@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" width="480" height="640">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb37a"/>
+      <stop offset="55%" stop-color="#c98bd6"/>
+      <stop offset="100%" stop-color="#6b3fa0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9c7"/>
+      <stop offset="100%" stop-color="#ffcf8a"/>
+    </radialGradient>
+    <clipPath id="terraceClip">
+      <rect x="-20" y="420" width="520" height="220"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="640" fill="url(#sky)"/>
+
+  <circle cx="360" cy="120" r="46" fill="url(#sun)" opacity="0.9"/>
+
+  <g fill="#fff4e6" opacity="0.85">
+    <ellipse cx="90" cy="150" rx="46" ry="16"/>
+    <ellipse cx="130" cy="140" rx="34" ry="14"/>
+    <ellipse cx="420" cy="90" rx="30" ry="11"/>
+    <ellipse cx="450" cy="98" rx="20" ry="9"/>
+  </g>
+
+  <path d="M-20,420 C60,250 140,210 220,300 C300,390 340,230 420,250 C460,260 480,290 500,320 L500,430 L-20,430 Z" fill="#4a2a72"/>
+  <path d="M-20,430 C40,330 100,290 170,350 C230,400 260,310 330,335 C380,352 420,380 500,368 L500,430 L-20,430 Z" fill="#5c3792"/>
+
+  <g clip-path="url(#terraceClip)">
+    <ellipse cx="220" cy="330" rx="300" ry="160" fill="#6d3fa1"/>
+    <ellipse cx="260" cy="370" rx="290" ry="160" fill="#e7e2f8"/>
+    <ellipse cx="220" cy="415" rx="280" ry="160" fill="#6d3fa1"/>
+    <ellipse cx="260" cy="460" rx="270" ry="160" fill="#e7e2f8"/>
+    <ellipse cx="220" cy="505" rx="260" ry="160" fill="#6d3fa1"/>
+    <ellipse cx="260" cy="550" rx="250" ry="160" fill="#e7e2f8"/>
+    <ellipse cx="220" cy="595" rx="240" ry="160" fill="#6d3fa1"/>
+    <ellipse cx="260" cy="640" rx="230" ry="160" fill="#e7e2f8"/>
+  </g>
+
+  <g stroke="#3d2360" stroke-width="1" opacity="0.5" fill="none">
+    <path d="M-20,470 C80,430 180,510 280,460 C360,420 440,470 500,440"/>
+    <path d="M-20,560 C80,520 180,600 280,550 C360,510 440,560 500,530"/>
+  </g>
+
+  <g fill="#3d2360" opacity="0.7">
+    <path d="M60,410 q-8,-22 4,-30 q10,10 4,30 Z"/>
+    <path d="M76,412 q-6,-16 4,-24 q8,8 2,24 Z"/>
+  </g>
+</svg>
